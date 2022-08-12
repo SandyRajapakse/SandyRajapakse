@@ -1,0 +1,30 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(25, 1, 41);
+    color: white;
+    height: 64;
+    padding: 0 1rem;
+}
+
+.navigationButton {
+    padding: 10px;
+    background: rgb(133, 54, 236);
+    margin: 1rem;
+    font-size: 15px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.navigationButton:hover {
+    background-color: #b09beb; 
+    color: white;
+  }
